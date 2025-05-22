@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="bg--light text--dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoneyMan — Modern Digital Banking</title>
+  
+  <!-- Google Font – Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./automattic.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg--light box-shadow--sm fixed w-100 z--top">
+    <div class="container flex justify--between align--center py-md px-lg">
+      <a href="#" class="site-logo text--lg text--700 text--dark">MoneyMan</a>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="header-nav flex gap-md">
+        <a href="#features" class="text--sm text--dark-muted hover:text--dark">Features</a>
+        <a href="#accounts" class="text--sm text--dark-muted hover:text--dark">Accounts</a>
+        <a href="#security" class="text--sm text--dark-muted hover:text--dark">Security</a>
+        <a href="#faq" class="text--sm text--dark-muted hover:text--dark">FAQ</a>
+      </nav>
+      <a href="#open-account" class="btn btn--primary desktop-cta">Open Account</a>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu flex flex--column justify--center align--center gap-lg bg--light z--90" id="mobileMenu">
+    <a href="#features" class="text--lg text--dark text--600">Features</a>
+    <a href="#accounts" class="text--lg text--dark text--600">Accounts</a>
+    <a href="#security" class="text--lg text--dark text--600">Security</a>
+    <a href="#faq" class="text--lg text--dark text--600">FAQ</a>
+    <a href="#open-account" class="btn btn--primary">Open Account</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="pt-xl z--0">
+    <!-- Hero Section -->
+    <section class="hero flex justify--center align--center text--center px-lg">
+      <div>
+        <h1 class="text--700">Banking, Rebuilt for the Future</h1>
+        <p class="text--lg text--dark-muted">Open a MoneyMan account in minutes, earn smarter yields, and take control of your money with zero fees and real-time insights.</p>
+        <div class="btn-group flex gap-md">
+          <a href="#open-account" class="btn btn--primary">Get Started</a>
+          <a href="#features" class="btn btn--outline-primary">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features text--center py-xxl">
+      <h2 class="text--xxl text--700 mt-0">Why MoneyMan?</h2>
+      <p class="text--base text--dark-muted">Built for people who expect more from their bank.</p>
+      <div class="container grid--3 gap-lg">
+        <div class="feature-card bg--neutral box-shadow--sm p-lg">
+          <svg class="icon icon-tabler icon-tabler-transfer text--primary" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 10h-16l5.5 -6" /><path d="M4 14h16l-5.5 6" /></svg>
+          <h3 class="text--lg text--700">Instant Transfers</h3>
+          <p class="text--sm text--dark-muted">Experience seamless money transfers with lightning-fast speed, whether you're sending funds locally or internationally.</p>
+        </div>
+        <div class="feature-card bg--neutral box-shadow--sm p-lg">
+          <svg class="icon icon-tabler icon-tabler-bulb text--primary" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" /><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" /><path d="M9.7 17l4.6 0" /></svg>
+          <h3 class="text--lg text--700">Smart Insights</h3>
+          <p class="text--sm text--dark-muted">Leverage AI-powered analytics to gain valuable insights into your spending habits and discover smarter ways to save money.</p>
+        </div>
+        <div class="feature-card bg--neutral box-shadow--sm p-lg">
+          <svg class="icon icon-tabler icon-tabler-users text--primary" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /><path d="M21 21v-2a4 4 0 0 0 -3 -3.85" /></svg>
+          <h3 class="text--lg text--700">24/7 Support</h3>
+          <p class="text--sm text--dark-muted">Get assistance anytime with our dedicated support team, available around the clock via call, chat, or email to address your needs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dark Background CTA Section -->
+    <section class="bg--dark text--light py-xl text--center">
+      <h2 class="text--xl text--700 mt-0">Ready to Take Control of Your Finances?</h2>
+      <p class="text--base text--light-muted mb-lg">Join MoneyMan today and experience the future of banking.</p>
+      <a href="#open-account" class="btn btn--cta-light">Open Your Account</a>
+    </section>
+
+    <!-- 50/50 Split Content Section -->
+    <section class="py-xxl px-lg">
+      <div class="container grid--2 gap-lg align--center">
+        <!-- Image Section -->
+        <div class="">
+          <img src="./vault.jpg" alt="Financial Growth" class="max--w-100 h--auto box-shadow--sm radius--md" />
+        </div>
+        <!-- Text Section -->
+        <div class="flex flex--column justify--center align--center">
+          <h2 class="text--xxl text--700 mt-0">Grow Your Wealth Smarter</h2>
+          <p class="text--base text--dark-muted mb-lg">
+            Take control of your financial future with MoneyMan. Our platform is designed to help you make smarter decisions, save more, and grow your wealth effortlessly. Here's what you can expect:
+          </p>
+          <ul class="text--base text--dark-muted mb-lg">
+            <li>AI-powered insights to optimize your savings and investments.</li>
+            <li>Zero hidden fees, so you keep more of your money.</li>
+            <li>Real-time analytics to track your financial progress.</li>
+            <li>Seamless integration with your existing accounts.</li>
+            <li>24/7 customer support to assist you whenever you need it.</li>
+          </ul>
+          <p class="text--base text--dark-muted mb-lg">
+            Join thousands of satisfied customers who have already transformed their financial lives with MoneyMan. It's time to take the next step toward financial freedom.
+          </p>
+          <a href="#features" class="btn btn--outline-primary">Learn More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg--dark text--light py-lg text--center z--0">
+    <p>© 2025 MoneyMan Inc. All rights reserved.</p>
+    <p><a href="#" class="text--light hover:text--neutral">Privacy Policy</a> | <a href="#" class="text--light hover:text--neutral">Terms of Service</a></p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
